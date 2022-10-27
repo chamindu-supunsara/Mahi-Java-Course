@@ -1,17 +1,14 @@
 import java.util.*;
-class Myhome3{
+class Myhome2{
 	public static void main(String args[]){
-		Scanner input = new Scanner(System.in);
-		System.out.println("Enter Marks - ");
-		int mark =  input.nextInt();
-		if (mark >= 75){
-			System.out.println("Best");
-		}
-		else if (mark >- 50){
-			System.out.println("Good");
+		Scanner input = new Scanner (System.in);
+		System.out.println("Enter Number - ");
+		int num =  input.nextInt();
+		if ((num%2) == 0){
+			System.out.println("Even Number.");
 		}
 		else{
-			System.out.println("Not Good");	
+			System.out.println("Odd Number.");
 		}
 	}
 }
